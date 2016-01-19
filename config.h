@@ -9,16 +9,16 @@ enum {
 /* bar font:
  * (see X(7) section "FONT NAMES" for valid values)
  */
-static const char * const BAR_FONT = "-*-fixed-medium-r-*-*-13-*-*-*-*-60-*-*";
+static const char * const BAR_FONT = "-*-tamsyn-medium-r-*-*-13-*-*-*-*-70-*-*";
 
 /* colors:
- * (see X(7) section "COLOR NAMES" for valid values) 0-1-7-8-7
+ * (see X(7) section "COLOR NAMES" for valid values)
  */
-static const char * const WIN_BG_COLOR = "#2a2e35";
-static const char * const WIN_FS_COLOR = "#de8990";
-static const char * const SEL_COLOR    = "#e1e1e1";
-static const char * const BAR_BG_COLOR = "#5a5a5a";
-static const char * const BAR_FG_COLOR = "#e1e1e1";
+static const char * const WIN_BG_COLOR = "#141516";
+static const char * const WIN_FS_COLOR = "#141516";
+static const char * const SEL_COLOR    = "#db0a5b";
+static const char * const BAR_BG_COLOR = "#db0a5b";
+static const char * const BAR_FG_COLOR = "#f5f5f5";
 
 #endif
 #ifdef _IMAGE_CONFIG
